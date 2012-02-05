@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize output;
+@synthesize animalChooserVisible;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +28,7 @@
 
 - (void)viewDidUnload
 {
+    [self setOutput:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -59,6 +62,22 @@
   } else {
       return YES;
   }
+}
+
+- (IBAction)showAnimalChooser:(id)sender {
+  if (self.animalChooserVisible == NO) {
+    self.animalChooserVisible = YES;
+    [self performSegueWithIdentifier:@"toAnimalChooserPopover" sender:sender];
+  }
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+  ((AnimalChooserViewController*)segue.destinationViewController).mainViewController = self;
+}
+
+- (void)displayAnimal:(NSString *)chosenAnimal withSound:(NSString *)chosenSound fromComponent:(NSString *)chosenComponent {
+  NSString *outputString = [[NSString alloc] initWithFormat:@"Your %@ says %@. Neat.", chosenAnimal, chosenSound];
+  self.output.text = outputString;
 }
 
 @end

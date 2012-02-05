@@ -21,6 +21,14 @@
 		4ED254D814DE1F490089C9FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED254B614DE1F480089C9FD /* Foundation.framework */; };
 		4ED254E014DE1F490089C9FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4ED254DE14DE1F490089C9FD /* InfoPlist.strings */; };
 		4ED254E314DE1F490089C9FD /* CustomizedPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED254E214DE1F490089C9FD /* CustomizedPickerTests.m */; };
+		4ED254EE14DE1F7D0089C9FD /* AnimalChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED254ED14DE1F7D0089C9FD /* AnimalChooserViewController.m */; };
+		4ED254F714DE1FC80089C9FD /* bear.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED254F014DE1FC80089C9FD /* bear.png */; };
+		4ED254F814DE1FC80089C9FD /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED254F114DE1FC80089C9FD /* cat.png */; };
+		4ED254F914DE1FC80089C9FD /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED254F214DE1FC80089C9FD /* dog.png */; };
+		4ED254FA14DE1FC80089C9FD /* goose.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED254F314DE1FC80089C9FD /* goose.png */; };
+		4ED254FB14DE1FC80089C9FD /* mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED254F414DE1FC80089C9FD /* mouse.png */; };
+		4ED254FC14DE1FC80089C9FD /* pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED254F514DE1FC80089C9FD /* pig.png */; };
+		4ED254FD14DE1FC80089C9FD /* snake.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED254F614DE1FC80089C9FD /* snake.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +46,31 @@
 		4ED254B414DE1F480089C9FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4ED254B614DE1F480089C9FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4ED254B814DE1F480089C9FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4ED254BC14DE1F480089C9FD /* CustomizedPicker-Info.plist */ = {isa = PBXFileReference; path = "CustomizedPicker-Info.plist"; sourceTree = "<group>"; };
+		4ED254BC14DE1F480089C9FD /* CustomizedPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomizedPicker-Info.plist"; sourceTree = "<group>"; };
 		4ED254BE14DE1F480089C9FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4ED254C014DE1F480089C9FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4ED254C214DE1F480089C9FD /* CustomizedPicker-Prefix.pch */ = {isa = PBXFileReference; path = "CustomizedPicker-Prefix.pch"; sourceTree = "<group>"; };
-		4ED254C314DE1F480089C9FD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ED254C214DE1F480089C9FD /* CustomizedPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomizedPicker-Prefix.pch"; sourceTree = "<group>"; };
+		4ED254C314DE1F480089C9FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4ED254C414DE1F480089C9FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4ED254C714DE1F480089C9FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		4ED254CA14DE1F480089C9FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		4ED254CC14DE1F480089C9FD /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4ED254CC14DE1F480089C9FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4ED254CD14DE1F480089C9FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4ED254D414DE1F490089C9FD /* CustomizedPickerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomizedPickerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED254D514DE1F490089C9FD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4ED254DD14DE1F490089C9FD /* CustomizedPickerTests-Info.plist */ = {isa = PBXFileReference; path = "CustomizedPickerTests-Info.plist"; sourceTree = "<group>"; };
+		4ED254DD14DE1F490089C9FD /* CustomizedPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomizedPickerTests-Info.plist"; sourceTree = "<group>"; };
 		4ED254DF14DE1F490089C9FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4ED254E114DE1F490089C9FD /* CustomizedPickerTests.h */ = {isa = PBXFileReference; path = CustomizedPickerTests.h; sourceTree = "<group>"; };
+		4ED254E114DE1F490089C9FD /* CustomizedPickerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizedPickerTests.h; sourceTree = "<group>"; };
 		4ED254E214DE1F490089C9FD /* CustomizedPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizedPickerTests.m; sourceTree = "<group>"; };
+		4ED254EC14DE1F7D0089C9FD /* AnimalChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimalChooserViewController.h; path = ../AnimalChooserViewController.h; sourceTree = "<group>"; };
+		4ED254ED14DE1F7D0089C9FD /* AnimalChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimalChooserViewController.m; path = ../AnimalChooserViewController.m; sourceTree = "<group>"; };
+		4ED254F014DE1FC80089C9FD /* bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bear.png; sourceTree = "<group>"; };
+		4ED254F114DE1FC80089C9FD /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		4ED254F214DE1FC80089C9FD /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		4ED254F314DE1FC80089C9FD /* goose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goose.png; sourceTree = "<group>"; };
+		4ED254F414DE1FC80089C9FD /* mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouse.png; sourceTree = "<group>"; };
+		4ED254F514DE1FC80089C9FD /* pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig.png; sourceTree = "<group>"; };
+		4ED254F614DE1FC80089C9FD /* snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snake.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +130,9 @@
 		4ED254BA14DE1F480089C9FD /* CustomizedPicker */ = {
 			isa = PBXGroup;
 			children = (
+				4ED254EF14DE1FB70089C9FD /* Images */,
+				4ED254EC14DE1F7D0089C9FD /* AnimalChooserViewController.h */,
+				4ED254ED14DE1F7D0089C9FD /* AnimalChooserViewController.m */,
 				4ED254C314DE1F480089C9FD /* AppDelegate.h */,
 				4ED254C414DE1F480089C9FD /* AppDelegate.m */,
 				4ED254C614DE1F480089C9FD /* MainStoryboard_iPhone.storyboard */,
@@ -152,6 +172,20 @@
 				4ED254DE14DE1F490089C9FD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4ED254EF14DE1FB70089C9FD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4ED254F014DE1FC80089C9FD /* bear.png */,
+				4ED254F114DE1FC80089C9FD /* cat.png */,
+				4ED254F214DE1FC80089C9FD /* dog.png */,
+				4ED254F314DE1FC80089C9FD /* goose.png */,
+				4ED254F414DE1FC80089C9FD /* mouse.png */,
+				4ED254F514DE1FC80089C9FD /* pig.png */,
+				4ED254F614DE1FC80089C9FD /* snake.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +261,13 @@
 				4ED254BF14DE1F480089C9FD /* InfoPlist.strings in Resources */,
 				4ED254C814DE1F480089C9FD /* MainStoryboard_iPhone.storyboard in Resources */,
 				4ED254CB14DE1F480089C9FD /* MainStoryboard_iPad.storyboard in Resources */,
+				4ED254F714DE1FC80089C9FD /* bear.png in Resources */,
+				4ED254F814DE1FC80089C9FD /* cat.png in Resources */,
+				4ED254F914DE1FC80089C9FD /* dog.png in Resources */,
+				4ED254FA14DE1FC80089C9FD /* goose.png in Resources */,
+				4ED254FB14DE1FC80089C9FD /* mouse.png in Resources */,
+				4ED254FC14DE1FC80089C9FD /* pig.png in Resources */,
+				4ED254FD14DE1FC80089C9FD /* snake.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +305,7 @@
 				4ED254C114DE1F480089C9FD /* main.m in Sources */,
 				4ED254C514DE1F480089C9FD /* AppDelegate.m in Sources */,
 				4ED254CE14DE1F480089C9FD /* ViewController.m in Sources */,
+				4ED254EE14DE1F7D0089C9FD /* AnimalChooserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
